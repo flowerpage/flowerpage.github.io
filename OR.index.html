@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GALLARY</title>
+    <link rel="stylesheet" href="OR.Style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<div class="logo">
+    KAOHSIUNG FLOWERS SHOP
+</div>
+
+<div class="navbar">
+
+    <a href="payment.index.html">Payment</a>
+    <a href="frame.index.html">Order</a>
+    <a href="verity.index.html">Verity Of Flowers</a>
+    <div class="dropdown">
+        <button class="dropbtn">Occations
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+        <div class="dropdown-content">
+            <a href="ForHim.index.html">For Him</a>
+            <a href="ForHer.index.html">For Her</a>
+            <a href="wedding.index.html">Wedding</a>
+            <a href="ImSorry.index.html">I'm Sorry</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">New
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+        <div class="dropdown-content">
+            <a href="season.index.html">Seasonal Products</a>
+            <a href="motherproduct.index.html">Mother's Day</a>
+            <a href="graduation.index.html">Graduation</a>
+
+        </div>
+    </div>
+    <a href="index.html">Main</a>
+</div>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <div class="background">
+
+        <a href="" class="textOverImage" style="background-image:url(OR01.jpg)" data-title="Orange Roses Bouquet" data-text="(No.OR001)">
+</a>
+
+        <a href="" class="textOverImage" style="background-image:url(OR02.jpg)" data-title="Orange Roses Bouquet" data-text="(No.OR002)">
+</a>
+
+        <a href="" class="textOverImage" style="background-image:url(OR03.jpg)" data-title="Orange Roses Bouquet" data-text="(No.OR003)">
+</a>
+
+        <a href="" class="textOverImage" style="background-image:url(OR04.jpg)" data-title="Orange Roses Bouquet" data-text="(No.OR004)">
+</a>
+
+        
+        <ce href="#" class="english">Chinese &raquo;</ce>
+        <ce href="#" class="ehinese">&laquo; English</ce>
+    </div>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+</body>
+
+</html>
